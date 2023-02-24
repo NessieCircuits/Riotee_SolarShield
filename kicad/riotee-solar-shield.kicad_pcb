@@ -177,7 +177,7 @@
     (model "${KIPRJMOD}/../library/riotee.3dshapes/AS_KXOB25_23x08.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -247,7 +247,7 @@
     (model "${KIPRJMOD}/../library/riotee.3dshapes/AS_KXOB25_23x08.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -317,7 +317,7 @@
     (model "${KIPRJMOD}/../library/riotee.3dshapes/AS_KXOB25_23x08.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -462,7 +462,7 @@
     (model "${KIPRJMOD}/../library/riotee.3dshapes/AS_KXOB25_23x08.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 0))
     )
   )
 
