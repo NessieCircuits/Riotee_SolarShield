@@ -1,4 +1,4 @@
-20937926261358115
+20890715122213367
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -80597,370 +80597,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-Squeece
-AM_QFN16
-
-
-0
-17
-17
-Squeece
-BackPads
-
-
-0
-7
-7
-Squeece
-C_0201_0603Metric
-Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-capacitor
-0
-4
-2
-Squeece
-C_0402_1005Metric
-Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Squeece
-C_0603_1608Metric
-Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Squeece
-CastellatedHoles_1x06_P2.54mm
-Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x07 2.54mm single row
-0
-12
-6
-Squeece
-CastellatedHoles_1x08_P2.54mm
-Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x07 2.54mm single row
-0
-16
-8
-Squeece
-CastellatedHoles_1x08_P2.54mm_Left
-Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x07 2.54mm single row
-0
-16
-8
-Squeece
-CastellatedHoles_1x08_P2.54mm_Right
-Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x07 2.54mm single row
-0
-16
-8
-Squeece
-Crystal_SMD_2016-4Pin_2.0x1.6mm
-SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
-SMD SMT crystal
-0
-4
-4
-Squeece
-DFE201612E-4R7M=P2
-
-
-0
-2
-2
-Squeece
-DMN2004WK
-
-
-0
-3
-3
-Squeece
-D_0402_1005Metric
-Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-diode
-0
-2
-2
-Squeece
-ECS_ECX-1247B
-SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
-SMD SMT crystal
-0
-4
-4
-Squeece
-ECX-12R
-
-
-0
-2
-2
-Squeece
-EMI_SHIELD_CSTM
-
-
-0
-6
-1
-Squeece
-LED_0402_1005Metric
-LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
-Squeece
-L_0201_0603Metric
-Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-inductor
-0
-4
-2
-Squeece
-L_0603_1608Metric
-Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-Squeece
-L_0805_2012Metric
-Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-Squeece
-MS230-20
-
-
-0
-5
-1
-Squeece
-MX_W121C1+2
-
-
-0
-12
-12
-Squeece
-MX_W121C1+2_NOPASTE
-
-
-0
-12
-12
-Squeece
-NRF52832-CIAA
-
-
-0
-50
-50
-Squeece
-NRF52833-CJAA
-
-
-0
-75
-75
-Squeece
-NRF52833-CJAA_NOPASTE
-
-
-0
-75
-75
-Squeece
-NRF52840-CKAA
-
-
-0
-94
-94
-Squeece
-NXP_DFN1006-3
-
-
-0
-3
-3
-Squeece
-NXP_WLCSP4
-
-
-0
-4
-3
-Squeece
-NXP_WLCSP4_NOPASTE
-
-
-0
-4
-3
-Squeece
-OMR_B3S-1100
-Surface Mount Tactile Switch for High-Density Packaging with Ground Terminal
-Tactile Switch
-0
-5
-5
-Squeece
-RFSMD_0201_0603Metric
-Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Squeece
-R_0201_0603Metric
-Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
-resistor
-0
-4
-2
-Squeece
-R_0402_1005Metric
-Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-Squeece
-R_0603_1608Metric
-Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-Squeece
-SHTC3
-
-
-0
-5
-5
-Squeece
-SW_SPST_TL3305B
-https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
-TL3305 Series Tact Switch
-0
-4
-4
-Squeece
-SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
-solder jumper open
-0
-2
-2
-Squeece
-Squeece
-
-
-0
-14
-14
-Squeece
-TDK_ANT016008LCS2442MA2
-
-
-0
-2
-2
-Squeece
-TI_SC70-5_DCK5
-
-
-0
-5
-5
-Squeece
-TI_WSON8_DSG
-
-
-0
-9
-9
-Squeece
-TI_YBG6
-
-
-0
-6
-6
-Squeece
-TI_YBG6_NOPASTE
-
-
-0
-6
-6
-Squeece
-TI_YFP8
-
-
-0
-8
-8
-Squeece
-TI_YQW0024
-
-
-0
-24
-24
-Squeece
-TI_ZVW
-
-
-0
-87
-87
-Squeece
-TI_ZVW_NOPASTE
-
-
-0
-87
-87
-Squeece
-TLV3691IDPFR
-
-
-0
-6
-6
-Squeece
-TestPoint_Pad_D1.0mm
-SMD pad as test Point, diameter 1.0mm
-test point SMD pad
-0
-1
-1
-Squeece
-TestPoint_Pad_D2.0mm
-SMD pad as test Point, diameter 2.0mm
-test point SMD pad
-0
-1
-1
-Squeece
-Texas_SWRA117D_2.4GHz_Left
-http://www.ti.com/lit/an/swra117d/swra117d.pdf
-PCB antenna
-0
-2
-2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -87563,12 +87199,12 @@ NXP_SOT833-1
 8
 8
 riotee
-PinHeader_1x05_P2.54mm_Plain
+PinHeader_1x07_P2.54mm_Plain
 Through hole straight pin header, 1x05, 2.54mm pitch, single row
 Through hole pin header THT 1x05 2.54mm single row
 0
-5
-5
+7
+7
 riotee
 PinHeader_1x10_P2.54mm_Vertical
 Through hole straight pin header, 1x10, 2.54mm pitch, single row
@@ -87643,6 +87279,27 @@ riotee
 TI_DBV0005A
 SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
+0
+5
+5
+riotee
+TI_DCK0005A
+SOT-353, SC-70-5
+SOT-353 SC-70-5
+0
+5
+5
+riotee
+TI_DQN0004A
+X2SON 5 pin 1x1mm package (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
+X2SON
+0
+5
+5
+riotee
+TI_YZP0005
+
+
 0
 5
 5
