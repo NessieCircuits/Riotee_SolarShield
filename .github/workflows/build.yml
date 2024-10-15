@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  kibot:
+  kibot_build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -21,6 +21,12 @@ jobs:
     - name: Force permissions (kibot messes them up)
       run: sudo chown -R 1001:1001 kibot_outputs
 
+    - name: Upload artifacts to github
+      uses: actions/upload-artifact@v3
+      with:
+        name: output
+        path: kibot_outputs
+
     - name: Upload artifacts to webserver
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
@@ -31,8 +37,3 @@ jobs:
         server-dir: /htdocs/riotee/artifacts/solar_shield/latest/
         protocol: ftps
 
-    - name: Upload artifacts to github
-      uses: actions/upload-artifact@v3
-      with:
-        name: output
-        path: kibot_outputs
