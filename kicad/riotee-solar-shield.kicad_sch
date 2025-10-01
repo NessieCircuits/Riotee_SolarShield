@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e235c9a3-080d-42b7-93df-883e69095a9f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,85 +76,19 @@
 			)
 			(symbol "Conn_01x10_1_1"
 				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 10.287)
+					(end 0 10.033)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -173,8 +109,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -184,14 +120,80 @@
 					)
 				)
 				(rectangle
-					(start -1.27 11.43)
-					(end 1.27 -13.97)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -205,24 +207,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -374,11 +358,32 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x12"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -445,107 +450,19 @@
 			)
 			(symbol "Conn_01x12_1_1"
 				(rectangle
-					(start -1.27 -15.113)
-					(end 0 -15.367)
+					(start -1.27 13.97)
+					(end 1.27 -16.51)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
+					(start -1.27 12.827)
+					(end 0 12.573)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -566,8 +483,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 12.827)
-					(end 0 12.573)
+					(start -1.27 7.747)
+					(end 0 7.493)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -577,14 +494,102 @@
 					)
 				)
 				(rectangle
-					(start -1.27 13.97)
-					(end 1.27 -16.51)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -598,60 +603,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -803,11 +754,68 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_DIP_x02"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -874,17 +882,6 @@
 			)
 			(symbol "SW_DIP_x02_0_0"
 				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center -2.032 2.54)
 					(radius 0.508)
 					(stroke
@@ -895,10 +892,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -919,9 +915,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -932,6 +929,17 @@
 				)
 				(circle
 					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -993,24 +1001,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 2.54 180)
 					(length 5.08)
 					(name "~"
@@ -1028,13 +1018,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1125,12 +1138,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1221,11 +1239,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "riotee:KXOB25-05X3F"
-			(pin_numbers hide)
+		(symbol "riotee:KXOB25-03X4F"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1238,8 +1261,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "KXOB25-05X3F"
-				(at 2.54 0 0)
+			(property "Value" "KXOB25-03X4F"
+				(at 3.048 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1256,7 +1279,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-05X3F%20DATA%20SHEET%20202007.pdf"
+			(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%20202007.pdf"
 				(at 3.81 -12.7 0)
 				(effects
 					(font
@@ -1283,54 +1306,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "KXOB25-05X3F_0_1"
-				(rectangle
-					(start -2.032 -1.397)
-					(end 2.032 -1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 1.778)
-					(end 2.032 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.3208 -1.9812)
-					(end 1.27 -2.4892)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.3208 1.1938)
-					(end 1.27 0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "KXOB25-03X4F_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0.254) (xy -4.064 1.778)
+						(xy -2.54 3.048) (xy -2.54 2.286) (xy -3.302 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1354,7 +1333,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.524) (xy 0 -1.27)
+						(xy -2.54 1.016) (xy -2.54 0.254) (xy -3.302 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1366,7 +1345,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
+						(xy -2.54 0.254) (xy -4.064 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1376,21 +1355,53 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
-					)
+				(rectangle
+					(start -2.032 1.778)
+					(end 2.032 1.524)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.397)
+					(end 2.032 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.3208 1.1938)
+					(end 1.27 0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.3208 -1.9812)
+					(end 1.27 -2.4892)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 0.254)
+						(xy 0 1.778) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1414,7 +1425,43 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 2.54)
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.524) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1448,32 +1495,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 1.016) (xy -2.54 0.254) (xy -3.302 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.048) (xy -2.54 2.286) (xy -3.302 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "KXOB25-05X3F_1_1"
+			(symbol "KXOB25-03X4F_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -1511,6 +1534,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1909,7 +1933,6 @@
 	)
 	(label "Vharvester"
 		(at 163.83 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1920,7 +1943,6 @@
 	)
 	(label "Vharvester"
 		(at 196.85 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1930,7 +1952,7 @@
 		(uuid "cf076b5a-25db-4cd8-b27f-0d1472a2568d")
 	)
 	(symbol
-		(lib_id "riotee:KXOB25-05X3F")
+		(lib_id "riotee:KXOB25-03X4F")
 		(at 172.72 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1940,7 +1962,7 @@
 		(fields_autoplaced yes)
 		(uuid "185f5caa-5335-48c2-a311-8ea33da8967e")
 		(property "Reference" "SC4"
-			(at 175.387 103.9403 0)
+			(at 176.53 103.5049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,8 +1970,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KXOB25-05X3F"
-			(at 175.387 106.4772 0)
+		(property "Value" "KXOB25-03X4F"
+			(at 176.53 106.0449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +1988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-05X3F%20DATA%20SHEET%20202007.pdf"
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%20202007.pdf"
 			(at 176.53 118.11 0)
 			(effects
 				(font
@@ -1984,7 +2006,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KXOB25-05X3F-TR"
+		(property "MPN" "KXOB25-03X4F-TR"
 			(at 172.72 105.41 0)
 			(effects
 				(font
@@ -2009,7 +2031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "riotee:KXOB25-05X3F")
+		(lib_id "riotee:KXOB25-03X4F")
 		(at 129.54 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2026,8 +2048,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KXOB25-05X3F"
-			(at 132.207 106.4772 0)
+		(property "Value" "KXOB25-03X4F"
+			(at 132.588 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-05X3F%20DATA%20SHEET%20202007.pdf"
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%20202007.pdf"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -2062,7 +2084,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KXOB25-05X3F-TR"
+		(property "MPN" "KXOB25-03X4F-TR"
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -2087,7 +2109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "riotee:KXOB25-05X3F")
+		(lib_id "riotee:KXOB25-03X4F")
 		(at 107.95 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2104,8 +2126,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KXOB25-05X3F"
-			(at 110.617 106.4772 0)
+		(property "Value" "KXOB25-03X4F"
+			(at 110.998 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-05X3F%20DATA%20SHEET%20202007.pdf"
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%20202007.pdf"
 			(at 111.76 118.11 0)
 			(effects
 				(font
@@ -2140,7 +2162,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KXOB25-05X3F-TR"
+		(property "MPN" "KXOB25-03X4F-TR"
 			(at 107.95 105.41 0)
 			(effects
 				(font
@@ -2790,7 +2812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "riotee:KXOB25-05X3F")
+		(lib_id "riotee:KXOB25-03X4F")
 		(at 151.13 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2807,8 +2829,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KXOB25-05X3F"
-			(at 153.797 106.4772 0)
+		(property "Value" "KXOB25-03X4F"
+			(at 154.178 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-05X3F%20DATA%20SHEET%20202007.pdf"
+		(property "Datasheet" "https://waf-e.dubudisk.com/anysolar.dubuplus.com/techsupport@anysolar.biz/O18Ae07/DubuDisk/www/Gen3/KXOB25-03X4F%20DATA%20SHEET%20202007.pdf"
 			(at 154.94 118.11 0)
 			(effects
 				(font
@@ -2843,7 +2865,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KXOB25-05X3F-TR"
+		(property "MPN" "KXOB25-03X4F-TR"
 			(at 151.13 105.41 0)
 			(effects
 				(font
@@ -2872,4 +2894,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
